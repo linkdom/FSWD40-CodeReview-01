@@ -1,0 +1,152 @@
+/*Setting a fixed size for the page layout*/
+
+.wrapper {
+	margin-left: 0;
+	padding-left: 0px;
+	width: 800px;
+	height: 950px;
+}
+
+/*add a padding for screens with a width over 900px*/
+
+@media (min-width: 900px){
+	.wrapper{
+		padding-left: 500px;
+	}
+}
+
+/*Defining the size and the color of the header*/
+
+.header {
+	width: 800px;
+	height: 100px;
+	background-color: #E05151;
+}
+
+/*overwrite the general image size and position with a class for the logo*/
+
+.logo {
+	float: left;
+	width: 20%;
+	height: 65%;
+	margin-top: 20px;
+	padding: 0px;
+}
+
+/*positioning for the h3 in the header defined it with a class for eventual other h3's*/
+
+.myname {
+	float: left;
+	margin: 40px;
+	color: white;
+	font-family: Sans-Serif;
+	font-weight: normal;
+}
+
+/*Defining the Block for the Menu and arrange it correctly*/
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #868686;
+	position: absolute;
+	top: 6em;
+	width: 770px;
+	padding: 15px;
+}
+
+/*Align the text next to each other and get the positioning right*/
+
+li {
+	display: inline;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: Sans-Serif;
+	font-size: 100%;
+}
+
+/*Defining the color of the menu text and deleting the text decoration from it (underline)*/
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+/*setting the size of the images to be the same*/
+
+img {
+	width: 350px;
+	height: 250px;
+	padding: 0px;
+}
+
+/*defining the position of the first image*/
+
+.firstimage {
+	display: inline-block;
+	margin-top: 70px;
+}
+
+/*defining the position of the second image*/
+
+.secondimage {
+	display: inline-block;
+	float: right;
+	margin-top: 70px;
+	text-align: left;
+}
+
+/*defining the position of the third image*/
+
+.thirdimage {
+	display: inline-block;
+	margin-top: 0px;
+}
+
+/*defining the position of the fourth image (explanation needed for margin-top - unclear)*/
+
+.fourthimage {
+	display: inline-block;
+	float: right;
+	padding: 0px;
+	margin-top: -325px;
+	text-align: left;
+}
+
+/*positioning for the paragraph*/
+
+p {
+	font-family: Sans-Serif;
+	font-weight: normal;
+	font-size: 140%;
+}
+
+/*defining the size and the color of the footer*/
+
+footer {
+	width: 800px;
+	height: 50px;
+	background-color: #E05151;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*defining the size of the text aswell as the font and the color*/
+
+.itsme {
+	color: white;
+	font-family: Sans-Serif;
+	font-weight: normal;
+	font-size: 120%;
+}
+
+/*center the text of the span in the footer*/
+
+span {
+	vertical-align: middle;
+	text-align: center;
+	line-height: 50px;
+}
